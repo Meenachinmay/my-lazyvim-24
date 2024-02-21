@@ -3,6 +3,8 @@ return {
 
   { "rose-pine/neovim", name = "rose-pine" },
 
+  { "rebelot/kanagawa.nvim", name = "kanagawa" },
+
   {
     "folke/tokyonight.nvim",
     lazy = true,
@@ -12,7 +14,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "kanagawa",
     },
   },
 }
